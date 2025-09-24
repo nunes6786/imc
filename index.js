@@ -15,10 +15,10 @@ function imc(){
             const imc = this.peso/this.altura**2;
             if (imc < 18.5 ) this.classificacao = "obesidade mÃ³rbida";
             if (imc >= 18.5 &&  imc < 25 ) this.classificacao = "saudÃ¡vel"
-            if (imc >= 25 &&  imc < 30 ) this.classificacao = "sobrepeso"
+            if (imc >= 25 &&  imc < 30 ) this.classificacao = "magreza"
             if (imc >= 30 &&  imc < 35 ) this.classificacao = "obesidade"
             if (imc >= 35 &&  imc < 40 ) this.classificacao = "obesidade Severa"
-            if (imc >= 40 ) this.classificacao = "magreza"
+            if (imc >= 40 ) this.classificacao = "obesidade mórbida"
             return imc.toFixed(2);
         
             
